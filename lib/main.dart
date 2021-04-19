@@ -1,6 +1,7 @@
 import 'package:eva_frontend/customAppBar.dart';
 import 'package:eva_frontend/dashboard.dart';
 import 'package:eva_frontend/homepage.dart';
+import 'package:eva_frontend/loginPage.dart';
 import 'package:eva_frontend/userProfile.dart';
 import 'package:flutter/material.dart';
 
@@ -47,6 +48,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: ElevatedButton(
+          onPressed: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (BuildContext context) => LoginPage()
+              ),
+            );
+          },
+          child: Icon(Icons.ac_unit_outlined)),
       key: _scaffoldKey,
       endDrawer: Drawer(),
       appBar: CustomAppBar(
