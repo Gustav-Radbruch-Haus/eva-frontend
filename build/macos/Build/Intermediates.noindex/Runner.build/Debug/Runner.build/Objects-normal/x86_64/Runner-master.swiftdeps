@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "4bd51d598a0e30acd56524e6cb7175c5"
-build_time: [1616445981, 427072000]
-inputs:
-  "/Users/apoorv/Development/eva_frontend/macos/Runner/MainFlutterWindow.swift": [1593645056, 0]
-  "/Users/apoorv/Development/eva_frontend/macos/Runner/AppDelegate.swift": [1593645056, 0]
-  "/Users/apoorv/Development/eva_frontend/macos/Flutter/GeneratedPluginRegistrant.swift": [1616445946, 851749264]
